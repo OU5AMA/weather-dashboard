@@ -1,0 +1,41 @@
+/* src/styles/WeatherCard.css */
+.weather-card {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.weather-main img {
+  width: 80px;
+  height: 80px;
+}
+
+.temp {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.25rem 0;
+  text-transform: capitalize;
+}
+
+.weather-details {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+}
