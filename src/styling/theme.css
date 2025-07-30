@@ -1,0 +1,51 @@
+/* src/styling/theme.css */
+
+body.day-clear {
+  background: linear-gradient(to top, #87ceeb, #ffffff); /* light blue sky */
+  color: #222;
+}
+
+body.night-clear {
+  background: linear-gradient(to bottom, #0b1a47, #1e2a78); /* dark blue sky */
+  color: #eee;
+}
+
+body.day-cloudy {
+  background: linear-gradient(to top, #b0bec5, #eceff1); /* grey clouds */
+  color: #222;
+}
+
+body.night-cloudy {
+  background: linear-gradient(to bottom, #37474f, #263238); /* darker grey */
+  color: #eee;
+}
+
+body.day-rainy {
+  background: linear-gradient(to top, #78909c, #cfd8dc); /* rainy mood */
+  color: #222;
+}
+
+body.night-rainy {
+  background: linear-gradient(to bottom, #455a64, #263238); /* dark rainy */
+  color: #eee;
+}
+
+body.day-windy {
+  background: linear-gradient(to top, #b2ebf2, #e0f7fa); /* breezy */
+  color: #222;
+}
+
+body.night-windy {
+  background: linear-gradient(to bottom, #006064, #004d40); /* night wind */
+  color: #eee;
+}
+
+body.day-snowy {
+  background: linear-gradient(to top, #e0f7fa, #ffffff); /* snowy daylight */
+  color: #222;
+}
+
+body.night-snowy {
+  background: linear-gradient(to bottom, #90a4ae, #37474f); /* snowy night */
+  color: #eee;
+}

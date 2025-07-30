@@ -37,6 +37,7 @@ export async function fetchWeather(lat, lon) {
     },
   });
   console.log('Weather data:', res.data);
+
   return res.data;
 }
 
